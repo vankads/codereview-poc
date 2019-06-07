@@ -54,7 +54,7 @@ public final class PathUtil {
         if (matcher.find()) {
             return matcher.group();
         }else{
-            return null;
+            return "";
         }
         return null;
     }
