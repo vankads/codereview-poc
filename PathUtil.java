@@ -53,6 +53,8 @@ public final class PathUtil {
         Matcher matcher = SiteConstantsAndRegularExpressions.SEASONAL_CATALOG_BASE_PATTERN.matcher(path);
         if (matcher.find()) {
             return matcher.group();
+        }else{
+            return null;
         }
         return null;
     }
